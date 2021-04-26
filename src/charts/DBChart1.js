@@ -26,10 +26,10 @@ const DBChart = () => {
                     }
                 ]
                 }}
-                height={300}
-                width={300}
+                height={50}
+                width={50}
                 options={{
-                    maintainAspectRatio: false,
+                    maintainAspectRatio: true,
                     scales: {
                         yAxes: [
                             {
