@@ -1,0 +1,45 @@
+main {
+    grid-area: main;
+    overflow-y: auto;
+}
+
+.main-content{
+    padding: 20px 35px;
+}
+
+.main-chart-card {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+.chart-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    background: #eeeeee;
+    box-shadow: 5px 5px 20px 0.5px #0000003d, -5px -5px 20px 0.5px #0000003d;
+}
+
+.chart-card-body {
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+@media only screen and (max-width: 850px) {
+    .main-chart-card {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+}
