@@ -6,7 +6,7 @@ main {
 .main-content{
     justify-content: center;
     align-items: center;
-    padding: 30px 200px;
+    padding: 30px 40px;
 }
 
 .main-chart-card {
