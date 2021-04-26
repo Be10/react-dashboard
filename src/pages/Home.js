@@ -15,7 +15,7 @@ function Home() {
 
           <div className="chart-card">
             <div className="chart-card-title">
-              <h3>Test Chart</h3>
+              <h3>Test Chart 1</h3>
             </div>
             <div className="chart-card-body">
               <BarChart />
@@ -24,7 +24,7 @@ function Home() {
           
           <div className="chart-card">
             <div className="chart-card-title">
-              <h3>Test Chart</h3>
+              <h3>Test Chart 2</h3>
             </div>
             <div className="chart-card-body">
             </div>

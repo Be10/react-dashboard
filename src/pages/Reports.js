@@ -9,14 +9,14 @@ function Reports() {
       <div className="main-content">
         
         <div className="main-content-title">
-          <h2>Título del Chart</h2>
+          <h2>Reportes</h2>
         </div>
 
         <div className="main-chart-card">
 
           <div className="chart-card">
             <div className="chart-card-title">
-              <h3>Test Chart</h3>
+              <h3>Test Chart 1</h3>
             </div>
             <div className="chart-card-body">
               <BarChart />
@@ -25,7 +25,7 @@ function Reports() {
           
           <div className="chart-card">
             <div className="chart-card-title">
-              <h3>Test Chart</h3>
+              <h3>Test Chart 2</h3>
             </div>
             <div className="chart-card-body">
               <LineChart />
