@@ -10,19 +10,15 @@ const DBChart = () => {
                     datasets: [{
                         label: '# of Votes',
                         data: [120, 190, 30, 50, 20, 30],
-                        backgroundColor: [
-                            'red'
-                        ],
-                        borderColor: [
-                            'blue'
-                        ],
+                        backgroundColor: '#4799eb',
+                        borderColor: '#4799eb',
                         borderWidth: 1,
                     },
                     {
                         label: 'Quantity',
                         data: [100, 104, 67, 108, 37, 50],
-                        backgroundColor: 'orange',
-                        borderColor: 'red',
+                        backgroundColor: '#c65757',
+                        borderColor: '#c65757',
                     }
                 ]
                 }}
@@ -31,13 +27,22 @@ const DBChart = () => {
                 options={{
                     maintainAspectRatio: true,
                     scales: {
-                        yAxes: [
+                        yAxes:
                             {
                                 ticks: {
                                     beginAtZero: true,
-                                },
+                                    color: 'white',
+                                    font: {weight: 'lighter'},
+                                },                               
                             },
-                        ],
+                        xAxes:
+                            {
+                                ticks: {
+                                    beginAtZero: true,
+                                    color: 'white',
+                                    font: {weight: 'lighter'},
+                                },                               
+                            },
                     },
                 }}
             />

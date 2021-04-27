@@ -31,8 +31,9 @@ const BarChart = () => {
                     {
                         label: 'Quantity',
                         data: [100, 104, 67, 108, 37, 50],
-                        backgroundColor: 'orange',
-                        borderColor: 'red',
+                        backgroundColor: '#45a164',
+                        borderColor: '#45a164',
+                        borderWidth: 1,
                     }
                 ]
                 }}
@@ -41,13 +42,22 @@ const BarChart = () => {
                 options={{
                     maintainAspectRatio: true,
                     scales: {
-                        yAxes: [
+                        yAxes:
                             {
                                 ticks: {
                                     beginAtZero: true,
-                                },
+                                    color: 'white',
+                                    font: {weight: 'lighter'},
+                                },                               
                             },
-                        ],
+                        xAxes:
+                            {
+                                ticks: {
+                                    beginAtZero: true,
+                                    color: 'white',
+                                    font: {weight: 'lighter'},
+                                },                               
+                            },
                     },
                 }}
             />
